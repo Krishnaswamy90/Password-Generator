@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 24px;
+  display: grid;
+  place-items: center;
+  font-family: Arial, sans-serif;
+  color: #20252b;
+  background: #eef2ff;
+}
+
+.generator {
+  width: min(440px, 100%);
+  padding: 28px;
+  border-radius: 14px;
+  background: white;
+  box-shadow: 0 8px 24px #1e293b20;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+label,
+legend {
+  font-weight: bold;
+}
+
+#length {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font: inherit;
+}
+
+fieldset {
+  margin: 20px 0;
+  padding: 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+}
+
+.option {
+  display: block;
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+button {
+  padding: 11px 14px;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  background: #3157a4;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #203d78;
+}
+
+#generate-button {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.password-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+#password {
+  flex: 1;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font: inherit;
+}
+
+#message {
+  min-height: 20px;
+  color: #3157a4;
+}
